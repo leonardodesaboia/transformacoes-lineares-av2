@@ -3,9 +3,6 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JFrame;
 
-import biblioteca_matrizes.Vector;
-import biblioteca_matrizes.Vector3;
-
 public class Drawing extends Canvas {
      static double time_passed = 0;
      static double delta_time = 0;

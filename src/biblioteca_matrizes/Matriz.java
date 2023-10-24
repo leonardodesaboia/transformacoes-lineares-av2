@@ -76,6 +76,16 @@ public class Matriz {
         }
     }
 
+    public void FillIdentidade() {
+        if (linhas != colunas) {
+            return;
+        }
+
+        for (int i = 0; i < linhas; i++) {
+            dados[i][i] = 1;
+        }
+    }
+
     public String toString() {
         String matriz_string = "";
 
